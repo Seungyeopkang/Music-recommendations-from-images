@@ -1,0 +1,306 @@
+<<<<<<< HEAD
+[
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/01.jpg",
+        "caption": "arafed male in black sweater sitting in front of a wooden door, kim hyun joo, bixbite, intense look in the eyes, black and aqua colors, by Wang Wu, short dark haircut, pale skin and dark eyes, <hd, secret romance, full - body majestic angel, dark color palette, grim reaper, cocky smirk, a gorgeous",
+        "emotion_probabilities": {
+            "anger": 0.0683,
+            "joy": 0.7753,
+            "neutral": 0.0078,
+            "sadness": 0.1485
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/anger.jpg",
+        "caption": "arafed man with a beard and a white shirt is making a face, stock image, rage against the machine, by Helen Thomas Dranga, furious dark haired women, visibly angry, large teeth, frustration, underbite, hyper realistic portrait, anger, anti-aliased, artist impression",
+        "emotion_probabilities": {
+            "anger": 0.985,
+            "joy": 0.0052,
+            "neutral": 0.0043,
+            "sadness": 0.0055
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/camera.jpg",
+        "caption": "woman taking a picture of a train crossing with a camera, song hye - kyo, happily smiling at the camera, in style of atey ghailan, inspired by Byeon Sang-byeok, anya_taylor-joy, happy and smiling",
+        "emotion_probabilities": {
+            "anger": 0.0083,
+            "joy": 0.9554,
+            "neutral": 0.0055,
+            "sadness": 0.0308
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/disgust.jpg",
+        "caption": "a man with a long nose and a long nose, cartoon, character, man png and psd, sewage falling from grates, floating dust particles, covered in transparent cloth, flat icon, crying and puking, pale bluish skin, lightly dirty face, coughing, profile photo, wojak, very smoky, guy, emoji",
+        "emotion_probabilities": {
+            "anger": 0.1415,
+            "joy": 0.1663,
+            "neutral": 0.0057,
+            "sadness": 0.6865
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/fear.jpg",
+        "caption": "arafed man in a white shirt and tie standing in front of a shadow of a dragon, attack vector, a stock photo, monster teeth, the victim is in the center, shadows screaming, inhabited on many levels, stock photography, distress, crustacean, angry complexion, black silhouette, by Munch, gigantic monster, pc",
+        "emotion_probabilities": {
+            "anger": 0.5541,
+            "joy": 0.1133,
+            "neutral": 0.0071,
+            "sadness": 0.3255
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/insta_1.jpg",
+        "caption": "araffes in a black top and shorts standing in the rain, girl figure, attractive body, carrying guns, wavy long - length black hair, water park, attractive face and body, long elf ears, attractive pose, ready",
+        "emotion_probabilities": {
+            "anger": 0.1926,
+            "joy": 0.5016,
+            "neutral": 0.038,
+            "sadness": 0.2678
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/karina.jpg",
+        "caption": "a close up of a person with a pink sweater and a camera, portrait of female korean idol, waving hands, very sexy woman with black hair, black jacket | shiny, pale gray skin, medibang, file photo, airport, -n 5, waving, kami, on amino, wearing a cardigan, 2019 trending photo",
+        "emotion_probabilities": {
+            "anger": 0.0515,
+            "joy": 0.5872,
+            "neutral": 0.0165,
+            "sadness": 0.3448
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/mountain.jpg",
+        "caption": "mountains with a few clouds in the sky and a few trees, coban, panoramic photography, pexels contest winner, by Dicky Doyle, maui, affinity photo, during sunrise, on top of a mountain, realistic light and shadow, green blue red colors, viewpoint is to front and left, hdr, no fog",
+        "emotion_probabilities": {
+            "anger": 0.0313,
+            "joy": 0.7428,
+            "neutral": 0.0162,
+            "sadness": 0.2097
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/party.jpg",
+        "caption": "group of people standing in a circle with champagne glasses, happy and spirited expression, profile picture 1024px, christmas night, interconnected human lifeforms, playful and cheerful, at a bar, commercial banner, laughter",
+        "emotion_probabilities": {
+            "anger": 0.0074,
+            "joy": 0.9556,
+            "neutral": 0.0068,
+            "sadness": 0.0302
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/real_test.jpg",
+        "caption": "arafed woman in a brown dress is dancing in a pose, alessandra ambrosio, inspired by Tani Bunch\u014d, flowing black gown, inspired by N\u00edna Tryggvad\u00f3ttir, masculine pose, wearing a long flowy fabric, old black and white photo, long boney limbs",
+        "emotion_probabilities": {
+            "anger": 0.1474,
+            "joy": 0.5101,
+            "neutral": 0.0231,
+            "sadness": 0.3194
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sad.jpg",
+        "caption": "arafed baby with a blue bib and a blue bib on it ' s head, anguish, young cute wan asian face, macro image!!!!!, facepalm, aww",
+        "emotion_probabilities": {
+            "anger": 0.0295,
+            "joy": 0.0155,
+            "neutral": 0.0042,
+            "sadness": 0.9509
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sunset.jpg",
+        "caption": "there is a lone tree on a hill with a flock of birds flying in the sky, golden hour 4k, widescreen shot, by Ryan Barger, yellow and ornage color scheme, standing in an apple orchard, southern california, featured on artsation, photomanipulation, by Tyler Jacobson",
+        "emotion_probabilities": {
+            "anger": 0.0346,
+            "joy": 0.4231,
+            "neutral": 0.0132,
+            "sadness": 0.5292
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/th.jpg",
+        "caption": "araffe kid in a brown coat blowing bubbles with a face mask, news photo, by Kose Kanaoka, made in 2019, a large sphere of red energy, colorful iridescent and playful, bright sunlight, fine bubbles, upbeat, energetic",
+        "emotion_probabilities": {
+            "anger": 0.0168,
+            "joy": 0.9077,
+            "neutral": 0.0116,
+            "sadness": 0.0638
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\uac15\uc758\uc2e4.jpg",
+        "caption": "there are many desks in this classroom with a lot of windows, f1.8 anamorphic, by Marie-Suzanne Giroust, photo of a classroom, 2019, commercially ready, photo taken from behind, sunny light, interconnections, 240p, realistic professional photo, by Kathleen Allen",
+        "emotion_probabilities": {
+            "anger": 0.0371,
+            "joy": 0.7542,
+            "neutral": 0.0291,
+            "sadness": 0.1796
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\ub0ae\ubc14\ub2e4.jpg",
+        "caption": "sunset over the ocean with a sailboat in the foreground, ebay listing thumbnail, israel, an ai generated image, sunsetting color, with clouds in the sky, profile picture 1024px, full width, unedited, florida, amateur photo, maybe small waves, connectedness, by Susan Crile",
+        "emotion_probabilities": {
+            "anger": 0.0351,
+            "joy": 0.3448,
+            "neutral": 0.0159,
+            "sadness": 0.6042
+        }
+    }
+=======
+[
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/01.jpg",
+        "caption": "arafed male in black sweater sitting in front of a wooden door, kim hyun joo, bixbite, intense look in the eyes, black and aqua colors, by Wang Wu, short dark haircut, pale skin and dark eyes, <hd, secret romance, full - body majestic angel, dark color palette, grim reaper, cocky smirk, a gorgeous",
+        "emotion_probabilities": {
+            "anger": 0.0683,
+            "joy": 0.7753,
+            "neutral": 0.0078,
+            "sadness": 0.1485
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/anger.jpg",
+        "caption": "arafed man with a beard and a white shirt is making a face, stock image, rage against the machine, by Helen Thomas Dranga, furious dark haired women, visibly angry, large teeth, frustration, underbite, hyper realistic portrait, anger, anti-aliased, artist impression",
+        "emotion_probabilities": {
+            "anger": 0.985,
+            "joy": 0.0052,
+            "neutral": 0.0043,
+            "sadness": 0.0055
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/camera.jpg",
+        "caption": "woman taking a picture of a train crossing with a camera, song hye - kyo, happily smiling at the camera, in style of atey ghailan, inspired by Byeon Sang-byeok, anya_taylor-joy, happy and smiling",
+        "emotion_probabilities": {
+            "anger": 0.0083,
+            "joy": 0.9554,
+            "neutral": 0.0055,
+            "sadness": 0.0308
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/disgust.jpg",
+        "caption": "a man with a long nose and a long nose, cartoon, character, man png and psd, sewage falling from grates, floating dust particles, covered in transparent cloth, flat icon, crying and puking, pale bluish skin, lightly dirty face, coughing, profile photo, wojak, very smoky, guy, emoji",
+        "emotion_probabilities": {
+            "anger": 0.1415,
+            "joy": 0.1663,
+            "neutral": 0.0057,
+            "sadness": 0.6865
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/fear.jpg",
+        "caption": "arafed man in a white shirt and tie standing in front of a shadow of a dragon, attack vector, a stock photo, monster teeth, the victim is in the center, shadows screaming, inhabited on many levels, stock photography, distress, crustacean, angry complexion, black silhouette, by Munch, gigantic monster, pc",
+        "emotion_probabilities": {
+            "anger": 0.5541,
+            "joy": 0.1133,
+            "neutral": 0.0071,
+            "sadness": 0.3255
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/insta_1.jpg",
+        "caption": "araffes in a black top and shorts standing in the rain, girl figure, attractive body, carrying guns, wavy long - length black hair, water park, attractive face and body, long elf ears, attractive pose, ready",
+        "emotion_probabilities": {
+            "anger": 0.1926,
+            "joy": 0.5016,
+            "neutral": 0.038,
+            "sadness": 0.2678
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/karina.jpg",
+        "caption": "a close up of a person with a pink sweater and a camera, portrait of female korean idol, waving hands, very sexy woman with black hair, black jacket | shiny, pale gray skin, medibang, file photo, airport, -n 5, waving, kami, on amino, wearing a cardigan, 2019 trending photo",
+        "emotion_probabilities": {
+            "anger": 0.0515,
+            "joy": 0.5872,
+            "neutral": 0.0165,
+            "sadness": 0.3448
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/mountain.jpg",
+        "caption": "mountains with a few clouds in the sky and a few trees, coban, panoramic photography, pexels contest winner, by Dicky Doyle, maui, affinity photo, during sunrise, on top of a mountain, realistic light and shadow, green blue red colors, viewpoint is to front and left, hdr, no fog",
+        "emotion_probabilities": {
+            "anger": 0.0313,
+            "joy": 0.7428,
+            "neutral": 0.0162,
+            "sadness": 0.2097
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/party.jpg",
+        "caption": "group of people standing in a circle with champagne glasses, happy and spirited expression, profile picture 1024px, christmas night, interconnected human lifeforms, playful and cheerful, at a bar, commercial banner, laughter",
+        "emotion_probabilities": {
+            "anger": 0.0074,
+            "joy": 0.9556,
+            "neutral": 0.0068,
+            "sadness": 0.0302
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/real_test.jpg",
+        "caption": "arafed woman in a brown dress is dancing in a pose, alessandra ambrosio, inspired by Tani Bunch\u014d, flowing black gown, inspired by N\u00edna Tryggvad\u00f3ttir, masculine pose, wearing a long flowy fabric, old black and white photo, long boney limbs",
+        "emotion_probabilities": {
+            "anger": 0.1474,
+            "joy": 0.5101,
+            "neutral": 0.0231,
+            "sadness": 0.3194
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sad.jpg",
+        "caption": "arafed baby with a blue bib and a blue bib on it ' s head, anguish, young cute wan asian face, macro image!!!!!, facepalm, aww",
+        "emotion_probabilities": {
+            "anger": 0.0295,
+            "joy": 0.0155,
+            "neutral": 0.0042,
+            "sadness": 0.9509
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sunset.jpg",
+        "caption": "there is a lone tree on a hill with a flock of birds flying in the sky, golden hour 4k, widescreen shot, by Ryan Barger, yellow and ornage color scheme, standing in an apple orchard, southern california, featured on artsation, photomanipulation, by Tyler Jacobson",
+        "emotion_probabilities": {
+            "anger": 0.0346,
+            "joy": 0.4231,
+            "neutral": 0.0132,
+            "sadness": 0.5292
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/th.jpg",
+        "caption": "araffe kid in a brown coat blowing bubbles with a face mask, news photo, by Kose Kanaoka, made in 2019, a large sphere of red energy, colorful iridescent and playful, bright sunlight, fine bubbles, upbeat, energetic",
+        "emotion_probabilities": {
+            "anger": 0.0168,
+            "joy": 0.9077,
+            "neutral": 0.0116,
+            "sadness": 0.0638
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\uac15\uc758\uc2e4.jpg",
+        "caption": "there are many desks in this classroom with a lot of windows, f1.8 anamorphic, by Marie-Suzanne Giroust, photo of a classroom, 2019, commercially ready, photo taken from behind, sunny light, interconnections, 240p, realistic professional photo, by Kathleen Allen",
+        "emotion_probabilities": {
+            "anger": 0.0371,
+            "joy": 0.7542,
+            "neutral": 0.0291,
+            "sadness": 0.1796
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\ub0ae\ubc14\ub2e4.jpg",
+        "caption": "sunset over the ocean with a sailboat in the foreground, ebay listing thumbnail, israel, an ai generated image, sunsetting color, with clouds in the sky, profile picture 1024px, full width, unedited, florida, amateur photo, maybe small waves, connectedness, by Susan Crile",
+        "emotion_probabilities": {
+            "anger": 0.0351,
+            "joy": 0.3448,
+            "neutral": 0.0159,
+            "sadness": 0.6042
+        }
+    }
+>>>>>>> 4161a084efad45966a86f8a040459cdbcc0adfcc
+]
