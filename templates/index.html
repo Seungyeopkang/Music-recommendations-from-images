@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Music Recommender</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+        }
+
+        .upload-section {
+            border: 2px dashed #3498db;
+            padding: 2rem;
+            border-radius: 10px;
+            background-color: #ecf3fa;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .upload-section:hover {
+            background-color: #dbeaff;
+            border-color: #2980b9;
+        }
+
+        #file-input {
+            display: none;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        #result-section {
+            display: none;
+            margin-top: 2rem;
+            text-align: left;
+            border-top: 1px solid #eee;
+            padding-top: 2rem;
+        }
+
+        #preview-image {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .emotion-tag {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .music-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .music-item {
+            background: #f8f9fa;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #2ecc71;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .music-info {
+            font-weight: 500;
+        }
+
+        .music-artist {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        .play-link {
+            text-decoration: none;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .loading {
+            display: none;
+            margin-top: 1rem;
+            font-weight: bold;
+            color: #3498db;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎵 Mood & Music</h1>
+        <p>이미지를 업로드하면 분위기를 분석해 음악을 추천해드립니다.</p>
+
+        <div class="upload-section" onclick="document.getElementById('file-input').click()">
+            <p>클릭하여 이미지 찾기 또는 드래그 앤 드롭</p>
+            <input type="file" id="file-input" accept="image/*" onchange="previewImage(event)">
+        </div>
+
+        <button class="btn" onclick="analyzeImage()">분석 시작</button>
+        <div id="loading" class="loading">분석 중입니다... 잠시만 기다려주세요 🤖</div>
+
+        <div id="result-section">
+            <h3>분석 결과</h3>
+            <div style="text-align: center;">
+                <img id="preview-image" src="" alt="Preview">
+                <br>
+                감정: <span id="emotion-result" class="emotion-tag">Happiness</span>
+            </div>
+
+            <h3>추천 음악 🎧</h3>
+            <ul id="music-list" class="music-list">
+                <!-- Music items will be injected here -->
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        let selectedFile = null;
+
+        function previewImage(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                const output = document.getElementById('preview-image');
+                output.src = reader.result;
+            };
+            selectedFile = event.target.files[0];
+            reader.readAsDataURL(selectedFile);
+        }
+
+        async function analyzeImage() {
+            if (!selectedFile) {
+                alert("이미지를 선택해주세요!");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('result-section').style.display = 'none';
+
+            try {
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+
+                if (response.ok) {
+                    displayResult(data);
+                } else {
+                    alert("오류 발생: " + data.error);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert("서버 통신 오류가 발생했습니다.");
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function displayResult(data) {
+            document.getElementById('emotion-result').innerText = data.emotion.toUpperCase();
+            document.getElementById('preview-image').src = data.image_url;
+
+            const list = document.getElementById('music-list');
+            list.innerHTML = '';
+
+            data.recommendations.forEach(song => {
+                const item = document.createElement('li');
+                item.className = 'music-item';
+                item.innerHTML = `
+                    <div>
+                        <div class="music-info">${song.title}</div>
+                        <div class="music-artist">${song.artist}</div>
+                    </div>
+                    <a href="${song.url}" target="_blank" class="play-link">Listen ▶</a>
+                `;
+                list.appendChild(item);
+            });
+
+            document.getElementById('result-section').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>

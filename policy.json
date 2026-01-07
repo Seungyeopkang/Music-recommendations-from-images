@@ -1,0 +1,6 @@
+{
+  "auto_execution": true,
+  "policies": [
+    "OS 및 시스템을 파괴하는 코드는 절대 실행하지 않습니다."
+  ]
+}

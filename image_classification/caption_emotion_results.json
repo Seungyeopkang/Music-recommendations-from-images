@@ -1,0 +1,396 @@
+<<<<<<< HEAD
+[
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/01.jpg",
+        "caption": "arafed male in black sweater sitting in front of a wooden door, kim hyun joo, bixbite, intense look in the eyes, black and aqua colors, by Wang Wu, short dark haircut, pale skin and dark eyes, <hd, secret romance, full - body majestic angel, dark color palette, grim reaper, cocky smirk, a gorgeous",
+        "emotion_probabilities": {
+            "anger": 0.001,
+            "disgust": 0.0021,
+            "fear": 0.0013,
+            "joy": 0.8851,
+            "neutral": 0.1042,
+            "sadness": 0.0052,
+            "surprise": 0.001
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/anger.jpg",
+        "caption": "arafed man with a beard and a white shirt is making a face, stock image, rage against the machine, by Helen Thomas Dranga, furious dark haired women, visibly angry, large long pointy teeth, frustration, full body realistic portrait, showing anger, underbite, emotions",
+        "emotion_probabilities": {
+            "anger": 0.9866,
+            "disgust": 0.0024,
+            "fear": 0.0004,
+            "joy": 0.0009,
+            "neutral": 0.0058,
+            "sadness": 0.0005,
+            "surprise": 0.0034
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/camera.jpg",
+        "caption": "woman taking a picture of a train crossing with a camera, song hye - kyo, happily smiling at the camera, in style of atey ghailan, inspired by Byeon Sang-byeok, anya_taylor-joy, happy and smiling",
+        "emotion_probabilities": {
+            "anger": 0.0009,
+            "disgust": 0.0006,
+            "fear": 0.0004,
+            "joy": 0.9751,
+            "neutral": 0.0208,
+            "sadness": 0.0008,
+            "surprise": 0.0013
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/disgust.jpg",
+        "caption": "a man with a long nose and a long nose, cartoon, character, man png and psd, sewage falling from grates, floating dust particles, covered in transparent cloth, flat icon, crying and puking, pale bluish skin, lightly dirty face, coughing, profile photo, wojak, very smoky, guy, emoji",
+        "emotion_probabilities": {
+            "anger": 0.0016,
+            "disgust": 0.3511,
+            "fear": 0.0025,
+            "joy": 0.1021,
+            "neutral": 0.5278,
+            "sadness": 0.0077,
+            "surprise": 0.0072
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/insta_1.jpg",
+        "caption": "araffes in a black top and shorts standing in the rain, girl figure, attractive body, carrying guns, wavy long - length black hair, water park, attractive face and body, long elf ears, attractive pose, ready",
+        "emotion_probabilities": {
+            "anger": 0.0014,
+            "disgust": 0.0096,
+            "fear": 0.0021,
+            "joy": 0.3943,
+            "neutral": 0.5822,
+            "sadness": 0.005,
+            "surprise": 0.0054
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/karina.jpg",
+        "caption": "a close up of a person with a pink sweater and a camera, portrait of female korean idol, waving hands, very sexy woman with black hair, black jacket | shiny, ivory pale skin, medibang, file photo, cutie, waving, frontpage, 0 0 0",
+        "emotion_probabilities": {
+            "anger": 0.0015,
+            "disgust": 0.0082,
+            "fear": 0.001,
+            "joy": 0.745,
+            "neutral": 0.2335,
+            "sadness": 0.0017,
+            "surprise": 0.0091
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/mountain.jpg",
+        "caption": "mountains with a few clouds in the sky and a few trees, coban, panoramic photography, pexels contest winner, by Dicky Doyle, maui, affinity photo, during sunrise, on top of a mountain, realistic light and shadow, green blue red colors, viewpoint is to front and left, hdr, shadowed",
+        "emotion_probabilities": {
+            "anger": 0.002,
+            "disgust": 0.0006,
+            "fear": 0.0009,
+            "joy": 0.2787,
+            "neutral": 0.7074,
+            "sadness": 0.0038,
+            "surprise": 0.0067
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/real_test.jpg",
+        "caption": "arafed woman in a brown dress is dancing in a pose, alessandra ambrosio, inspired by Tani Bunch\u014d, flowing black gown, inspired by N\u00edna Tryggvad\u00f3ttir, masculine pose, wearing a long flowy fabric, fibonacci flow, exaggerated muscles",
+        "emotion_probabilities": {
+            "anger": 0.0019,
+            "disgust": 0.0098,
+            "fear": 0.0021,
+            "joy": 0.6265,
+            "neutral": 0.3526,
+            "sadness": 0.0022,
+            "surprise": 0.005
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sad.jpg",
+        "caption": "arafed baby with a blue bib and a blue bib on it ' s head, anguish, young cute wan asian face, macro image!!!!!, facepalm, aww",
+        "emotion_probabilities": {
+            "anger": 0.0032,
+            "disgust": 0.004,
+            "fear": 0.0229,
+            "joy": 0.1249,
+            "neutral": 0.2482,
+            "sadness": 0.5946,
+            "surprise": 0.0022
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sunset.jpg",
+        "caption": "there is a lone tree on a hill with a flock of birds flying in the sky, golden hour 4k, widescreen shot, by Ryan Barger, yellow and ornage color scheme, standing in an apple orchard, southern california, featured on artsation, photomanipulation, by Tyler Jacobson",
+        "emotion_probabilities": {
+            "anger": 0.0015,
+            "disgust": 0.0013,
+            "fear": 0.0082,
+            "joy": 0.0581,
+            "neutral": 0.8886,
+            "sadness": 0.0012,
+            "surprise": 0.0412
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/th.jpg",
+        "caption": "araffe kid in a brown coat blowing bubbles with a face mask, news photo, by Kose Kanaoka, made in 2019, a large sphere of red energy, colorful iridescent and playful, bright sunlight, fine bubbles, upbeat, energetic",
+        "emotion_probabilities": {
+            "anger": 0.0027,
+            "disgust": 0.0026,
+            "fear": 0.0008,
+            "joy": 0.6411,
+            "neutral": 0.3465,
+            "sadness": 0.0015,
+            "surprise": 0.0048
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\uac15\uc758\uc2e4.jpg",
+        "caption": "there are many desks in this classroom with a lot of windows, f1.8 anamorphic, by Marie-Suzanne Giroust, photo of a classroom, 2019, commercially ready, photo taken from behind, sunny light, interconnections, 240p, realistic professional photo, by Kathleen Allen",
+        "emotion_probabilities": {
+            "anger": 0.0024,
+            "disgust": 0.0009,
+            "fear": 0.0008,
+            "joy": 0.1717,
+            "neutral": 0.8105,
+            "sadness": 0.0026,
+            "surprise": 0.0111
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\ub0ae\ubc14\ub2e4.jpg",
+        "caption": "sunset over the ocean with a sailboat in the foreground, ebay listing thumbnail, israel, an ai generated image, sunsetting color, with clouds in the sky, profile picture 1024px, full width, unedited, florida, amateur photo, maybe small waves, connectedness, by Susan Crile",
+        "emotion_probabilities": {
+            "anger": 0.0013,
+            "disgust": 0.0009,
+            "fear": 0.0008,
+            "joy": 0.1761,
+            "neutral": 0.8149,
+            "sadness": 0.0023,
+            "surprise": 0.0036
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\ubc24\ubc14\ub2e4.jpg",
+        "caption": "a full moon is shining over the ocean at night, still from a music video, black and aqua colors, silhuette, featured on pexels, with a black dark background, the sea of sadness, connectedness, blue and gray colors, in darkness",
+        "emotion_probabilities": {
+            "anger": 0.001,
+            "disgust": 0.0025,
+            "fear": 0.0019,
+            "joy": 0.0593,
+            "neutral": 0.1306,
+            "sadness": 0.8037,
+            "surprise": 0.001
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\uc545\ub9c8\uc9c0\uc131.png",
+        "caption": "there are two people that are holding up their hands with a picture of them, an affable devil among demons, in a classroom, dark blue color, waving at the camera, japanese facial features, two young men, with pointy ears, turned back to camera, sketch, kind smile",
+        "emotion_probabilities": {
+            "anger": 0.0033,
+            "disgust": 0.1003,
+            "fear": 0.0017,
+            "joy": 0.1653,
+            "neutral": 0.7079,
+            "sadness": 0.0046,
+            "surprise": 0.017
+        }
+    }
+=======
+[
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/01.jpg",
+        "caption": "arafed male in black sweater sitting in front of a wooden door, kim hyun joo, bixbite, intense look in the eyes, black and aqua colors, by Wang Wu, short dark haircut, pale skin and dark eyes, <hd, secret romance, full - body majestic angel, dark color palette, grim reaper, cocky smirk, a gorgeous",
+        "emotion_probabilities": {
+            "anger": 0.001,
+            "disgust": 0.0021,
+            "fear": 0.0013,
+            "joy": 0.8851,
+            "neutral": 0.1042,
+            "sadness": 0.0052,
+            "surprise": 0.001
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/anger.jpg",
+        "caption": "arafed man with a beard and a white shirt is making a face, stock image, rage against the machine, by Helen Thomas Dranga, furious dark haired women, visibly angry, large long pointy teeth, frustration, full body realistic portrait, showing anger, underbite, emotions",
+        "emotion_probabilities": {
+            "anger": 0.9866,
+            "disgust": 0.0024,
+            "fear": 0.0004,
+            "joy": 0.0009,
+            "neutral": 0.0058,
+            "sadness": 0.0005,
+            "surprise": 0.0034
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/camera.jpg",
+        "caption": "woman taking a picture of a train crossing with a camera, song hye - kyo, happily smiling at the camera, in style of atey ghailan, inspired by Byeon Sang-byeok, anya_taylor-joy, happy and smiling",
+        "emotion_probabilities": {
+            "anger": 0.0009,
+            "disgust": 0.0006,
+            "fear": 0.0004,
+            "joy": 0.9751,
+            "neutral": 0.0208,
+            "sadness": 0.0008,
+            "surprise": 0.0013
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/disgust.jpg",
+        "caption": "a man with a long nose and a long nose, cartoon, character, man png and psd, sewage falling from grates, floating dust particles, covered in transparent cloth, flat icon, crying and puking, pale bluish skin, lightly dirty face, coughing, profile photo, wojak, very smoky, guy, emoji",
+        "emotion_probabilities": {
+            "anger": 0.0016,
+            "disgust": 0.3511,
+            "fear": 0.0025,
+            "joy": 0.1021,
+            "neutral": 0.5278,
+            "sadness": 0.0077,
+            "surprise": 0.0072
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/insta_1.jpg",
+        "caption": "araffes in a black top and shorts standing in the rain, girl figure, attractive body, carrying guns, wavy long - length black hair, water park, attractive face and body, long elf ears, attractive pose, ready",
+        "emotion_probabilities": {
+            "anger": 0.0014,
+            "disgust": 0.0096,
+            "fear": 0.0021,
+            "joy": 0.3943,
+            "neutral": 0.5822,
+            "sadness": 0.005,
+            "surprise": 0.0054
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/karina.jpg",
+        "caption": "a close up of a person with a pink sweater and a camera, portrait of female korean idol, waving hands, very sexy woman with black hair, black jacket | shiny, ivory pale skin, medibang, file photo, cutie, waving, frontpage, 0 0 0",
+        "emotion_probabilities": {
+            "anger": 0.0015,
+            "disgust": 0.0082,
+            "fear": 0.001,
+            "joy": 0.745,
+            "neutral": 0.2335,
+            "sadness": 0.0017,
+            "surprise": 0.0091
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/mountain.jpg",
+        "caption": "mountains with a few clouds in the sky and a few trees, coban, panoramic photography, pexels contest winner, by Dicky Doyle, maui, affinity photo, during sunrise, on top of a mountain, realistic light and shadow, green blue red colors, viewpoint is to front and left, hdr, shadowed",
+        "emotion_probabilities": {
+            "anger": 0.002,
+            "disgust": 0.0006,
+            "fear": 0.0009,
+            "joy": 0.2787,
+            "neutral": 0.7074,
+            "sadness": 0.0038,
+            "surprise": 0.0067
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/real_test.jpg",
+        "caption": "arafed woman in a brown dress is dancing in a pose, alessandra ambrosio, inspired by Tani Bunch\u014d, flowing black gown, inspired by N\u00edna Tryggvad\u00f3ttir, masculine pose, wearing a long flowy fabric, fibonacci flow, exaggerated muscles",
+        "emotion_probabilities": {
+            "anger": 0.0019,
+            "disgust": 0.0098,
+            "fear": 0.0021,
+            "joy": 0.6265,
+            "neutral": 0.3526,
+            "sadness": 0.0022,
+            "surprise": 0.005
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sad.jpg",
+        "caption": "arafed baby with a blue bib and a blue bib on it ' s head, anguish, young cute wan asian face, macro image!!!!!, facepalm, aww",
+        "emotion_probabilities": {
+            "anger": 0.0032,
+            "disgust": 0.004,
+            "fear": 0.0229,
+            "joy": 0.1249,
+            "neutral": 0.2482,
+            "sadness": 0.5946,
+            "surprise": 0.0022
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/sunset.jpg",
+        "caption": "there is a lone tree on a hill with a flock of birds flying in the sky, golden hour 4k, widescreen shot, by Ryan Barger, yellow and ornage color scheme, standing in an apple orchard, southern california, featured on artsation, photomanipulation, by Tyler Jacobson",
+        "emotion_probabilities": {
+            "anger": 0.0015,
+            "disgust": 0.0013,
+            "fear": 0.0082,
+            "joy": 0.0581,
+            "neutral": 0.8886,
+            "sadness": 0.0012,
+            "surprise": 0.0412
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/th.jpg",
+        "caption": "araffe kid in a brown coat blowing bubbles with a face mask, news photo, by Kose Kanaoka, made in 2019, a large sphere of red energy, colorful iridescent and playful, bright sunlight, fine bubbles, upbeat, energetic",
+        "emotion_probabilities": {
+            "anger": 0.0027,
+            "disgust": 0.0026,
+            "fear": 0.0008,
+            "joy": 0.6411,
+            "neutral": 0.3465,
+            "sadness": 0.0015,
+            "surprise": 0.0048
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\uac15\uc758\uc2e4.jpg",
+        "caption": "there are many desks in this classroom with a lot of windows, f1.8 anamorphic, by Marie-Suzanne Giroust, photo of a classroom, 2019, commercially ready, photo taken from behind, sunny light, interconnections, 240p, realistic professional photo, by Kathleen Allen",
+        "emotion_probabilities": {
+            "anger": 0.0024,
+            "disgust": 0.0009,
+            "fear": 0.0008,
+            "joy": 0.1717,
+            "neutral": 0.8105,
+            "sadness": 0.0026,
+            "surprise": 0.0111
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\ub0ae\ubc14\ub2e4.jpg",
+        "caption": "sunset over the ocean with a sailboat in the foreground, ebay listing thumbnail, israel, an ai generated image, sunsetting color, with clouds in the sky, profile picture 1024px, full width, unedited, florida, amateur photo, maybe small waves, connectedness, by Susan Crile",
+        "emotion_probabilities": {
+            "anger": 0.0013,
+            "disgust": 0.0009,
+            "fear": 0.0008,
+            "joy": 0.1761,
+            "neutral": 0.8149,
+            "sadness": 0.0023,
+            "surprise": 0.0036
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\ubc24\ubc14\ub2e4.jpg",
+        "caption": "a full moon is shining over the ocean at night, still from a music video, black and aqua colors, silhuette, featured on pexels, with a black dark background, the sea of sadness, connectedness, blue and gray colors, in darkness",
+        "emotion_probabilities": {
+            "anger": 0.001,
+            "disgust": 0.0025,
+            "fear": 0.0019,
+            "joy": 0.0593,
+            "neutral": 0.1306,
+            "sadness": 0.8037,
+            "surprise": 0.001
+        }
+    },
+    {
+        "image_path": "C:/Users/user/Desktop/jupyter notebook/gg-project-main/uploads/\uc545\ub9c8\uc9c0\uc131.png",
+        "caption": "there are two people that are holding up their hands with a picture of them, an affable devil among demons, in a classroom, dark blue color, waving at the camera, japanese facial features, two young men, with pointy ears, turned back to camera, sketch, kind smile",
+        "emotion_probabilities": {
+            "anger": 0.0033,
+            "disgust": 0.1003,
+            "fear": 0.0017,
+            "joy": 0.1653,
+            "neutral": 0.7079,
+            "sadness": 0.0046,
+            "surprise": 0.017
+        }
+    }
+>>>>>>> 4161a084efad45966a86f8a040459cdbcc0adfcc
+]

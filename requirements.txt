@@ -1,0 +1,15 @@
+flask
+transformers
+huggingface_hub
+datasets
+torch
+torchvision
+clip_interrogator
+pandas
+pillow
+scikit-learn
+librosa
+numpy
+openpyxl
+accelerate>=0.26.0
+spotipy
