@@ -1,0 +1,31 @@
+training_args = TrainingArguments(
+    output_dir='./results',
+    evaluation_strategy="steps",         
+    eval_steps=50,                       
+    save_strategy="steps",            
+    save_steps=50,                   
+    learning_rate=2e-5,                 
+    per_device_train_batch_size=8,     
+    per_device_eval_batch_size=8,     
+    num_train_epochs=4,                 
+    weight_decay=0.04,              
+    logging_dir='./logs',
+    logging_steps=50,                
+    save_total_limit=2,             
+    load_best_model_at_end=True,    
+    metric_for_best_model="eval_loss",
+    greater_is_better=False,          
+)
+
+
+early_stopping_callback = EarlyStoppingCallback(early_stopping_patience=3)
+
+TrainOutput(global_step=700, training_loss=0.520292592729841, metrics={'train_runtime': 66.1551, 'train_samples_per_second': 378.927, 'train_steps_per_second': 47.404, 'total_flos': 141991025097600.0, 'train_loss': 0.520292592729841, 'epoch': 0.8928571428571429})
+
+Test Results:
+eval_loss: 0.3944549560546875
+eval_accuracy: 0.870463428252373
+eval_runtime: 2.4086
+eval_samples_per_second: 743.595
+eval_steps_per_second: 93.001
+epoch: 0.8928571428571429
