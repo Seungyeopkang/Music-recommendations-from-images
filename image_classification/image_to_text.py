@@ -16,7 +16,7 @@ from multiprocessing import freeze_support
 
 
 # 토큰을 코드에 직접 설정
-login("YOUR_HF_TOKEN")
+login(os.environ["HF_TOKEN"])  # set HF_TOKEN in your environment; never hard-code it
 ds = load_dataset("xodhks/EmoSet118K")
 
 # DatasetDict를 단일 Dataset으로 병합
