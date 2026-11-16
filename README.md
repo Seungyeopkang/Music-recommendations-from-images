@@ -76,3 +76,7 @@ image_emotion_bert/         tokenizer/config for the fine-tuned DistilBERT
 music_classification/       Spotify feature collection, labeling notebook, song features
 excel_file/                 per-emotion song lists used for labeling
 ```
+
+## License
+
+MIT. See `LICENSE`. Song metadata and audio features come from the Spotify Web API and remain subject to Spotify's terms.
